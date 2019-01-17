@@ -1,0 +1,12 @@
+git init
+git config --global user.name "Yahya APP"
+git config --global user.email "Yahya@gmail.com"
+git remote add origin https://github.com/YahyaApp/FirstTest
+git add .
+git commit -m "this is first initila commit"
+git log
+git push origin master
+git add .
+git commit -m "Modifiynig"
+git log
+git push origin master
